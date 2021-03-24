@@ -1,0 +1,130 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+body{
+    background:url(yellow.jpg);
+    font-family:sans-serif;
+    background-size: 100% 100%;
+    color:white;
+}
+i{
+    color:white;
+}
+.login-box{
+    top:20%;
+    left:35%;
+    position: absolute;
+    width: 400px;
+    padding:40px;
+    background:rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.9);
+ }
+ h1{
+    margin: 0 0 30px;
+    padding: 0;
+    font-family: sans-serif;
+    text-align:center;
+    color:#32e17c;
+}
+.textbox{
+  position: relative;
+
+}
+.textbox input{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    color:#fff;
+    margin-bottom: 30px;
+    border:none;
+    outline: none;
+    background:transparent;
+    border-bottom: 1px solid #32e17c;
+}
+.textbox i{
+    transform: translate(-20px,30px);
+    float:left;
+
+}
+.textbox label{
+    position: absolute;
+    top:15%;
+    left:0;
+    padding:10px 0;
+    font-size:20px;
+    pointer-events:none;
+    transition:.5s;
+}
+.textbox input:focus ~ label,
+.textbox input:valid ~ label{
+    top:-18px;
+    left:0;
+    color:#32e17c;
+    font-size:15px;
+}
+
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+button{ cursor:pointer;
+   
+    border-style: none;
+     box-sizing:border-box;
+     text-transform: uppercase;
+     background:linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+     font-size:20px;
+     padding:12px 30px;
+     font-family:  sans-serif;
+     border-radius: 30px;
+     width:100%;
+     background-size:400%;
+     text-decoration: none;
+     color: azure;
+}
+button:hover{
+    animation:animate 8s linear infinite;
+}
+
+.error{
+    color:red;
+    width:400px;
+    height:100px;
+   left:20%;
+   top:10px;
+   transform: translate(625px,40px);
+
+}
+.donth{
+    width:500px;
+    height:200px;
+    transform: translate(1130px,-50px);
+     
+}
+a{
+    margin-left:90px;
+    margin-top:40px;
+    display: inline-block;
+	color: #fff;
+	background-color: #1e62d8;
+	font-weight: 700;
+	padding: 10px 30px;
+	border-radius: 4px;
+	border: none;
+    transition: 0.2s all;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transform: translate(140px,-125px);
+}
+h2{
+    font-size: 50px;
+    color:#32e17c;
+}

@@ -1,0 +1,138 @@
+.head{
+    height:150px;
+    width:100%;
+    background-color:orange;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.edit{
+    height:200px;
+    width:100%;
+
+
+}
+.left{
+    float:left;
+    height:180px;
+    width:45%;
+    border-right:2px solid red;
+    padding:20px 0 0 50px ;
+}
+.right{
+    float:left;
+    height:180px;
+    width:45%;
+    padding:20px 0 0 50px ;
+
+}
+table{
+    margin:20px auto;
+    width:100%;
+    
+
+}
+tr{
+
+    display:table;
+    width:100%;
+    font-family: sans-serif;
+    background: transparent;
+    padding:12px 0;
+    color:#555;
+    font-size:13px;
+    box-shadow:0 1px 4px 0 rgba(0,0,50,0.3);
+}
+td,th{
+    display:table-cell;
+    width:10%;
+    text-align:center;
+    padding:4px 0;
+    border-right:2px solid #d6d4d4;
+    vertical-align: middle;
+}
+.table-head{
+    display:table;
+    width:100%;
+    font-family: sans-serif;
+    background: transparent;
+    padding:12px 0;
+    color:#555;
+    font-size:13px;
+    box-shadow:0 1px 4px 0 rgba(0,0,50,0.3);
+    
+     background:#1E90FF;
+     box-shadow:none;
+     color:#fff;
+     font-weight:600;
+}
+input{
+
+
+    background-color: #ebecee;
+	border-radius: 4px;
+	border: none;
+	height: 40px;
+	box-shadow: none;
+	color: #3e485c;
+    font-size: 14px;
+    height: 35px;
+}
+button{
+    margin-left:90px;
+    margin-top:40px;
+    display: inline-block;
+	color: #fff;
+	background-color: #1e62d8;
+	font-weight: 700;
+	padding: 10px 30px;
+	border-radius: 4px;
+	border: none;
+    transition: 0.2s all;
+    text-align: center;
+    cursor: pointer;
+}
+.ans{
+    transform: translate(380px,-54px);
+}
+label{
+    display: inline-block;
+	color: #3e485c;
+	font-weight: 1000;
+	margin-bottom: 6px;
+    margin-left: 7px;
+}
+#email{
+    transform: translate(30px);
+}
+#ee{
+    transform: translate(-10px);
+}
+#gst{
+    transform: translate(48px);
+}
+#phone{
+    transform: translate(19px);
+}
+h2{
+    transform: translate(-30px,-30px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    transform: translate(-30px,-30px);
+}
+#sub1{
+    transform: translate(500px,-200px);
+}
+#sub2{
+    transform: translate(550px,-250px);
+}
+#sign{
+    transform: translate(1330px,10px);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    transform: translate(20px);
+}
